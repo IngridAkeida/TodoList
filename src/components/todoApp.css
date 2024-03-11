@@ -1,0 +1,122 @@
+* {
+  font-family: sans-serif, Verdana, Geneva;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #141439;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  box-shadow: 2px 2px 5px #141439;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+button:active {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.todoContainer {
+  width: 35rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  border: 1px solid #a442ff;
+  border-radius: 1rem;
+}
+
+.todoTitleContainer {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #d9d9f8;
+}
+
+.todoUpdateForm,
+.todoInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.todoInput {
+  flex-grow: 1;
+  width: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #141439;
+}
+
+.buttonCreate {
+  background-color: #9191ed;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  color: #282854;
+  font-weight: 600;
+  box-shadow: 2px 2px 5px #141439;
+}
+
+.todoCreateForm {
+  display: flex;
+  gap: 5px;
+}
+
+.todosContainerList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  background-color: #141439;
+  border-radius: 10px;
+}
+
+.todoOrder {
+  flex: 1;
+  font-size: 1, 5rem;
+  font-weight: 500;
+}
+
+.todo-card {
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #282854;
+  color: #dedefb;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #141439;
+}
+
+.buttonUpdate {
+  background-color: #4b4bb1;
+  color: white;
+}
+
+.buttonEdit {
+  background-color: #9548dd;
+  margin-right: 0.5rem;
+}
+
+.buttonDelete {
+  background-color: #f90db6;
+}
