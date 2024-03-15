@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-import { getUserInforLogin } from "./data/apiconfig";
+import { getUserInforLogin } from "./data/apiconfigUser";
 
 export default function Login() {
   const [email, setEmail] = useState('');
